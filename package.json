@@ -1,0 +1,10 @@
+{
+  "name": "a4_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "PATENTED",
+  "dependencies": {
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "browser-sync": "*"
+  }
+}
