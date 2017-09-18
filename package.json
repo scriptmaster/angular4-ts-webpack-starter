@@ -1,10 +1,26 @@
 {
   "name": "a4_webpack",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "PATENTED",
+  "main": "src/app.ts",
+
+  "scripts": {
+    "start": "webpack" // Includes browsersync baby :)
+  },
+
   "dependencies": {
     "browser-sync-webpack-plugin": "^1.2.0",
-    "browser-sync": "*"
-  }
+    "browser-sync": "*",
+    "rxjs": "*",
+    "zone.js": "*",
+    "core-js": "*",
+    "@angular/compiler": "*",
+    "@angular/common": "*",
+    "@angular/core": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/http": "*"
+  },
+
+  "license": "Unlicense"
+  
 }
